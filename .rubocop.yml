@@ -1,0 +1,22 @@
+AllCops:
+  TargetRubyVersion: 3.0.2
+  Exclude:
+    - ".git/**/*"
+  NewCops: disable
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/AsciiComments:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 100
+  CountAsOne: ["array", "heredoc"]
